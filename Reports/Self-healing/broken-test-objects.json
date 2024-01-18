@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Facebook  log in or sign up/button_Log in (2)",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_5_wM\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook  log in or sign up/button_Log in (2)_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Positive Test/Page_Facebook  log in or sign up/button_Log in",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_5_d5\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Positive Test/Page_Facebook  log in or sign up/button_Log in_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Positive Test/Page_(6) Facebook/a_x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y_7351b9",
+      "brokenLocator": "//div[@id\u003d\u0027mount_0_0_9R\u0027]/div/div/div/div[2]/div[4]/div/div/div/ul/li[6]/span/div/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(@href, \u0027/bookmarks/\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Positive Test/Page_(6) Facebook/a_x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y_7351b9_href.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Positive Test/Page_(6) Facebook/circle_xbh8q5q x1pwv2dq xvlca1e",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "circle.xbh8q5q.x1pwv2dq.xvlca1e",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Positive Test/Page_(6) Facebook/circle_xbh8q5q x1pwv2dq xvlca1e_CSS.png"
+    }
+  ]
+}

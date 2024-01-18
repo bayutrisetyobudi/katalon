@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Login,Chrome 120.0.0.0,,,18-01-2024 19:51:01,18-01-2024 19:58:42,"7m - 40,684s",FAILED
+,,,,,,,
+Test Cases/TC02 - Invalid Login,Chrome 120.0.0.0,,,18-01-2024 19:58:07,18-01-2024 19:58:41,"34,911s",FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,18-01-2024 19:58:07,18-01-2024 19:58:09,"2,161s",PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 120.0.0.0,,,18-01-2024 19:58:09,18-01-2024 19:58:12,"3,188s",PASSED
+"setText(findTestObject(""Object Repository/Positive Test/Page_Facebook  log in or sign up/input_email""), ""bayutrisetyobudi1998@gmail.com"")",Chrome 120.0.0.0,,,18-01-2024 19:58:12,18-01-2024 19:58:13,"1,039s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Positive Test/Page_Facebook  log in or sign up/input_pass""), ""XbjJ05ueDfGhEnnYzJdk9g=="")",Chrome 120.0.0.0,,,18-01-2024 19:58:13,18-01-2024 19:58:14,"0,655s",PASSED
+"click(findTestObject(""Object Repository/Positive Test/Page_Facebook  log in or sign up/button_Log in""))",Chrome 120.0.0.0,,,18-01-2024 19:58:14,18-01-2024 19:58:41,"27,740s",FAILED
+,,,,,,,
+Test Cases/TC01 - Valid Login,Chrome 120.0.0.0,,,18-01-2024 19:58:41,18-01-2024 19:58:42,"0,201s",PASSED
+return null,Chrome 120.0.0.0,,,18-01-2024 19:58:42,18-01-2024 19:58:42,"0,002s",PASSED
